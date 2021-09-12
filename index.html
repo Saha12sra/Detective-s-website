@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Entrepreneur App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+
+            <nav class="navbar-inverse navigator">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuoptions">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">Detectives Corner</a>
+                </div>
+                <div class="collapse navbar-collapse" id="menuoptions">
+                    <ul id="menu" class="menu nav navbar-nav">
+                        <li class="links"><a href="#home">HOME</a></li>
+                        <li class="links"><a href="">DETECTOR</a></li>
+                        <li class="links"><a href="">CASES</a></li>
+                        <li class="links"><a href="">CLUES</a></li>
+                        <li class="links"><a href="">COMPLETED CASES</a></li>
+                        <li class="links"><a href="">CONTACT HEAD</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            <p id="header">DETECTIVES' CORNER</p>
+            <img id="max"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Magnifying_glass_with_focus_on_paper.png">
+            <br><br>
+            <div id="password">
+                <p id="message"> If you are an officer or detective, please type your password in to verify that it is
+                    you.</p>
+                <br><br>
+                <p id="pass" style="font-size: 50px;">**********</p>
+                <p id="error1" style="color: red;"></p>
+                <button id="enter" onclick="enter()">ENTER</button>
+            </div>
+            <div id="cam+pro">
+                <div style="border: 3px dotted; height: 300px; width: 350px;" id="camera"></div>
+                <div id="profile">
+                <div id="propic"></div>
+                    <div id="info">
+                        <p id="name">NAME: </p>
+                        <p id="age">AGE: </p>
+                        <p id="role">ROLE: </p>
+                        </div>
+                </div>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
